@@ -1,0 +1,125 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+particle_physics_env/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Data files (large files that shouldn't be in git)
+*.csv
+*.parquet
+*.h5
+*.hdf5
+*.pickle
+*.pkl
+*.root
+*.dat
+*.bin
+
+# But keep small example/sample data
+!data/external/sample_*.csv
+!data/external/*_constants.csv
+
+# Results and outputs
+results/figures/*.png
+results/figures/*.jpg
+results/figures/*.pdf
+results/figures/*.svg
+results/models/*.pkl
+results/models/*.h5
+results/models/*.joblib
+
+# But keep example plots
+!results/figures/example_*.png
+
+# Logs
+*.log
+logs/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Configuration files with sensitive info
+config/secrets.yaml
+config/api_keys.yaml
+.env
+
+# Large model files
+*.model
+*.weights
+
+# Compressed files (data archives)
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Documentation builds
+docs/_build/
+site/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
