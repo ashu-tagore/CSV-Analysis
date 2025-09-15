@@ -1,0 +1,17 @@
+{
+  "analysis_date": "2025-09-09 09:08:56",
+  "total_events_analyzed": 100000,
+  "higgs_events_in_sample": 52757,
+  "algorithm_accuracy": 0.6680333333333334,
+  "higgs_precision": 0.6914393840532429,
+  "higgs_recall": 0.6695520313388513,
+  "roc_auc_score": 0.7303948075124764,
+  "high_confidence_higgs_extracted": 12080,
+  "high_confidence_purity": 0.8936258278145696,
+  "statistical_significance": 98.21756875049533,
+  "top_features_used": [
+    "7.216574549674987793e-01",
+    "8.766783475875854492e-01",
+    "9.887509346008300781e-01"
+  ]
+}
